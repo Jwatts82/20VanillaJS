@@ -20,9 +20,27 @@ function showSuccess(input) {
 //Event listeners
 form.addEventListener('submit', function(e) {
     e.preventDefault();
-    if(username.value === '') {
+    if (username.value === '') {
         showError(username, 'Username is requried');
     } else {
         showSuccess(username);
+    }
+
+    if (email.value === '') {
+        showError(email, 'Email is requried');
+    } else {
+        showSuccess(email);
+    }
+
+    if (password.value === '') {
+        showError(password, 'Password is requried');
+    } else {
+        showSuccess(password);
+    }
+
+    if (password2.value === '') {
+        showError(email, 'Password is requried');
+    } else {
+        showSuccess(password2);
     }
 });
