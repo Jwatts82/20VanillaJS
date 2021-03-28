@@ -1,10 +1,13 @@
-Form Validator (Intro Project)
-Simple client side form validation. Check required, length, email and password match
+# Movie Seat Booking
 
-Project Specifications
-Create form UI
-Show error messages under specific inputs
-checkRequired() to accept array of inputs
-checkLength() to check min and max length
-checkEmail() to validate email with regex
-checkPasswordsMatch() to match confirm password
+Display movie choices and seats in a theater to select from in order to purchase tickets
+
+# Project Specifications
+
+Display UI with movie select, screen, seats, legend & seat info
+User can select a movie/price
+User can select/deselect seats
+User can not select occupied seats
+Number of seats and price will update
+Save seats, movie and price to local storage so that UI is still populated on refresh
+Design inspiration from Dribbble
