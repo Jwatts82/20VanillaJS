@@ -1,12 +1,11 @@
-# Form Validator (Intro Project)
+# Exchange Rate
 
-Simple client side form validation. Check required, length, email and password match
+Select countries to get the exchange rate for a specific amount
 
 # Project Specifications
 
-Create form UI
-Show error messages under specific inputs
-checkRequired() to accept array of inputs
-checkLength() to check min and max length
-checkEmail() to validate email with regex
-checkPasswordsMatch() to match confirm password
+Display UI with 2 select lists for countries and 2 inputs for amounts
+Fetch exchange rates from API (https://api.exchangerate-api.com)
+Display the values for both countries
+Update values on amount change
+Swap country rates
