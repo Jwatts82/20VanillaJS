@@ -31,3 +31,27 @@ const words = [
   'drag',
   'loving'
 ];
+
+// Init word
+let randomWord;
+
+// Init score
+let score = 0;
+
+// Init time
+let time = 10;
+
+// Set difficulty to value in ls or medium
+let difficulty =
+  localStorage.getItem('difficulty') !== null
+    ? localStorage.getItem('difficulty')
+    : 'medium';
+
+// Set difficulty select value
+difficultySelect.value =
+  localStorage.getItem('difficulty') !== null
+    ? localStorage.getItem('difficulty')
+    : 'medium';
+
+// Focus on text on start
+text.focus();
